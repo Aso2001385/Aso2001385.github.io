@@ -1,4 +1,4 @@
-<link href="/path/to/markdown.css" rel="stylesheet"/>
+<link href="https://kevinburke.bitbucket.io/markdowncss/markdown.css" rel="stylesheet">
 
 # PHP QuickReview
 
