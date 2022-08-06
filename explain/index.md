@@ -1,9 +1,6 @@
-
-<link href="/path/to/markdown.css" rel="stylesheet"></link>
-
+<link href="https://kevinburke.bitbucket.io/markdowncss/markdown.css" rel="stylesheet">
 
 ## 目次
-
 
 - [変数](#変数)
 - [配列](#配列)
