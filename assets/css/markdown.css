@@ -41,10 +41,14 @@ h3 {
   color: #d0b458;
 }
 
+pre {
+  background-color: rgb(10, 12, 14);
+}
+
 code {
   counter-reset: line-number;
   color: rgb(0, 106, 255);
-  background: rgb(10, 12, 14);
+  background-color: rgb(10, 12, 14);
 }
 
 code span {
