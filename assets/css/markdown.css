@@ -23,9 +23,7 @@ h1 {
   width: 100%;
   color: white; /*文字色*/
   padding: 0.5em 0; /*上下の余白*/
-  border: none;
-  border-top: solid 3px; /*上線*/
-  border-bottom: solid 3px; /*下線*/
+  border-top: double 3px; /*上線*/
   border-color: #d0b458;
 }
 
@@ -41,6 +39,24 @@ h2 {
 
 h3 {
   color: #d0b458;
+}
+
+code {
+  counter-reset: line-number;
+  color: rgb(0, 106, 255);
+  background: rgb(10, 12, 14);
+}
+
+code span {
+  counter-increment: line-number;
+  display: list-item;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+code span::marker {
+  content: counter(line-number);
+  color: #aaa;
 }
 
 /* 
