@@ -34,7 +34,9 @@ h2 {
   background: #421615; /*背景色*/
   vertical-align: middle;
   border-radius: 25px 0px 0px 25px; /*左側の角を丸く*/
-  border: none;
+  border-top: solid #d0b458;
+  border-left: solid #d0b458;
+  border-bottom: solid #d0b458 !important;
 }
 
 h3 {
@@ -48,7 +50,7 @@ pre {
 
 code {
   counter-reset: line-number;
-  color: rgb(59, 98, 153);
+  color: rgb(85, 152, 247);
 }
 
 code span {
