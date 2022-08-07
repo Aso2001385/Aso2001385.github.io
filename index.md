@@ -1,4 +1,4 @@
-<link href="https://kevinburke.bitbucket.io/markdowncss/markdown.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@3.0.1/github-markdown.min.css">
 
 # PHP QuickReview
 
