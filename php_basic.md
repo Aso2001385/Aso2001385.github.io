@@ -1,8 +1,6 @@
 <link rel="stylesheet" href="./assets/css/markdown.css">
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@3.0.1/github-markdown.min.css"> -->
 
-# PHP
-
 ## PHP Basic 目次
 
 - [Lv1](#Lv1)
