@@ -41,8 +41,7 @@ h3 {
   color: #d0b458;
 }
 
-.markdown-body .highlight pre,
-.markdown-body pre {
+pre {
   background-color: #222529 !important;
 }
 
