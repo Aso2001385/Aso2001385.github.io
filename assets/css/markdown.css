@@ -42,7 +42,8 @@ h3 {
 }
 
 pre {
-  background-color: #222529 !important;
+  background-color: #33363a !important;
+  border-radius: 0 !important;
 }
 
 code {
