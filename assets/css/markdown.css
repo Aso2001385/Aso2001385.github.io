@@ -41,14 +41,14 @@ h3 {
   color: #d0b458;
 }
 
-.highlight {
-  background-color: rgb(10, 12, 14);
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #222529 !important;
 }
 
 code {
   counter-reset: line-number;
-  color: rgb(0, 106, 255);
-  background-color: rgb(10, 12, 14);
+  color: rgb(59, 98, 153);
 }
 
 code span {
