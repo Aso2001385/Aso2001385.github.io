@@ -11,16 +11,6 @@ a {
   color: inherit;
 }
 
-a::after {
-  content: ""; /*何も入れない*/
-  display: inline-block; /*忘れずに！*/
-  width: 1em; /*画像の幅*/
-  height: 1em; /*画像の高さ*/
-  background-image: url(../images/link-variant.png);
-  background-size: contain;
-  vertical-align: middle;
-}
-
 a:hover {
   color: red;
 }
