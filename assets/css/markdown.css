@@ -21,7 +21,7 @@ a:focus {
 
 h1 {
   width: 100%;
-  color: white; /*文字色*/
+  color: #d0b458; /*文字色*/
   padding: 0.5em 0; /*上下の余白*/
   border-top: double 3px; /*上線*/
   border-color: #d0b458;
@@ -30,6 +30,8 @@ h1 {
 h2 {
   color: #d0b458; /*文字色*/
   padding: 0.5rem 1rem; /*文字周りの余白*/
+  margin-top: 1em;
+  margin-bottom: 1em;
   line-height: 1.3; /*行高*/
   background: #421615; /*背景色*/
   vertical-align: middle;
@@ -37,10 +39,12 @@ h2 {
   border-top: solid #d0b458;
   border-left: solid #d0b458;
   border-bottom: solid #d0b458 !important;
+  text-shadow: 1px 2px 3px #202020;
 }
 
 h3 {
   color: #d0b458;
+  text-shadow: 1px 2px 3px #202020;
 }
 
 pre {
@@ -51,18 +55,6 @@ pre {
 code {
   counter-reset: line-number;
   color: rgb(85, 152, 247);
-}
-
-code span {
-  counter-increment: line-number;
-  display: list-item;
-  padding-left: 1rem;
-  margin-left: 1rem;
-}
-
-code span::marker {
-  content: counter(line-number);
-  color: #aaa;
 }
 
 /* 

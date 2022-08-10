@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="./assets/css/markdown.css">
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@3.0.1/github-markdown.min.css"> -->
 
-## PHP Basic 目次
+## PHP Basic：目次
 
 - [Lv1](#Lv1)
   - PHP の記述方法・ファイル作成
@@ -11,8 +11,8 @@
 ### PHP の記述方法・ファイル作成
 
 - PHP は「 PHP ファイル 」に記述する
-  - PHP ファイルの拡張子は「 .php 」
-    - 例：「index.php」「create.php」「book.php」など
+- PHP ファイルの拡張子は「 .php 」
+  - 例：「index.php」「create.php」「book.php」など
 
 ### 開始タグと終了タグ
 
@@ -22,7 +22,7 @@
   - タグの外の記述は文字列(HTML)として表示される
     - ソースコードがそのままブラウザに送信される
 
-```
+```php
 <?php
   $x = 5
   $y = 8
@@ -45,7 +45,7 @@
   - ダブルクォーテーションは`{}`を使って中に変数を埋め込めるぞ！
 - 変数名は数字始まり NG(\_等の記号は OK)
 
-```
+```php
 // 数値
 $hour = 12
 
@@ -61,7 +61,7 @@ $goofy = "アヒョ！{$hour}時になっちゃった！帰るお家が無いな
 
 - JavaSprict と同様の形式
 
-```
+```php
 $array = ['スタバ','ドトール','タリーズ']
 
 // 配列は始まりが0からなので、1を指定するとドトールが表示される
@@ -77,7 +77,7 @@ var_dump($array)
 - JavaSprict と同様の形式
 - キーと値のセットで宣言する
 
-```
+```php
 //
 $array = [
   'name' => '尾田栄一郎',

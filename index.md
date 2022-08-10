@@ -1,5 +1,26 @@
 <link rel="stylesheet" href="./assets/css/markdown.css">
 
+## [準備](prep.md)
+
+### XAMPP
+
+- XAMPP とは
+- htdocks について
+- プロジェクトの管理について
+- PHP で HelloWorld
+
+### Github
+
+- Github とは
+- Git のインストールと連携
+- リポジトリのフォーク
+- README ファイルの編集
+
+### その他
+
+- VSCode の拡張機能
+- Phiza ラーニング
+
 ## [PHP Basic](php_basic.md)
 
 ### レベル 1
@@ -46,3 +67,9 @@
 - Class を使って処理を分離する
 
 ### レベル 2
+
+- フローチャート再現：順次構造
+- フローチャート再現：選択構造
+- フローチャート再現：繰り返し
+- フローチャート再現：配列探索
+- フローチャート再現：フィルタ
