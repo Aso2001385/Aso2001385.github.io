@@ -68,12 +68,9 @@ pre {
   color: mediumorchid !important;
 }
 
-.s1 {
-  color: rgb(231, 144, 57);
-}
-
+.s1,
 .s2 {
-  color: rgb(231, 144, 57);
+  color: rgb(207, 111, 16) !important;
 }
 
 /* 
