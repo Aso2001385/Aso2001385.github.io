@@ -52,11 +52,6 @@ pre {
   border-radius: 0 !important;
 }
 
-code {
-  counter-reset: line-number;
-  color: rgb(85, 152, 247);
-}
-
 /* 
 
 赤 #421615 プライマリー
