@@ -52,6 +52,27 @@ pre {
   border-radius: 0 !important;
 }
 
+.nv {
+  color: #008080 !important;
+}
+
+.o {
+  color: #fff !important;
+}
+
+.c1 {
+  color: darkgreen !important;
+}
+
+.k {
+  color: mediumorchid !important;
+}
+
+.s1,
+.s2 {
+  color: orange;
+}
+
 /* 
 
 赤 #421615 プライマリー
