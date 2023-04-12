@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>IBJ CAFE</title>
+    <link rel="stylesheet" href="./css/inquiry_end_pc_style.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./css/inquiry_end_sp_style.css" media="screen and (max-width:600px)">
+    <link rel="stylesheet" href="../common/css/normalize.css">
+    <link rel="stylesheet" href="../common/css/header_footer.css">
+</head>
+<body>
+      <header>
+        <div id="headerInner">
+            <a href="../index.html" class="logo">IBJ CAFE</a>
+            <nav id="nav_pc">
+                 <ul>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="../menu/menu.html">Menu</a></li>
+                    <li><a href="../access/access.html">Access</a></li>
+                    <li><a href="../inquiry/inquiry.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <nav id="nav_sp">
+                <ul>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="../menu/menu.html">Menu</a></li>
+                    <li><a href="../access/access.html">Access</a></li>
+                    <li><a href="../inquiry/inquiry.html">Contact Us</a></li>
+               </ul>
+           </nav>
+           <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+           </div>
+        </div>
+    </header>
+    <main>
+        <h1 id="mainphoto"></h1>
+        <section class="section">
+        <h2 class="title">お問合せフォーム</h2>
+        <p>ご意見、ご感想、誠にありがとうございました。</p>
+        </section>
+    </main>
+    <footer>
+      <div id="footerInner">
+          <a href="#" class="logo">IBJ CAFE</a>
+          <p>2022&copy;IBJCAFE.inc</p>
+      </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    // スマホハンバーガーメニュー
+    $(function () {
+        // ハンバーガーメニューをクリックしたときの処理
+        $('#hamburger').click(function() {
+            $('body').toggleClass('open');
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>IBJ CAFE</title>
+    <link rel="stylesheet" href="./common/index_pc.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./common/index_sp.css" media="screen and (max-width:600px)">
+    <link rel="stylesheet" href="./common/css/normalize.css">
+    <link rel="stylesheet" href="./common/css/header_footer.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQ1MGCCNFY"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZQ1MGCCNFY');
+    </script>
+</head>
+<body>
+    <header>
+        <div id="headerInner">
+            <a href="./index.html" class="logo">IBJ CAFE</a>
+            <nav id="nav_pc">
+                 <ul>
+                    <li><a href="./about/about.html">About</a></li>
+                    <li><a href="./menu/menu.html">Menu</a></li>
+                    <li><a href="./access/access.html">Access</a></li>
+                    <li><a href="./inquiry/inquiry.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <nav id="nav_sp">
+                <ul>
+                    <li><a href="./about/about.html">About</a></li>
+                    <li><a href="./menu/menu.html">Menu</a></li>
+                    <li><a href="./access/access.html">Access</a></li>
+                    <li><a href="./inquiry/inquiry.html">Contact Us</a></li>
+               </ul>
+           </nav>
+           <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+           </div>
+        </div>
+    </header>
+    <main>
+        <!-- firstview -->
+        <div id="main">
+            <div id="mainphoto"></div>
+            <div id="catch">
+                <h1>THE JOURNEY WITH COFFEE</h1>
+                <p>コーヒーとの旅</p>
+            </div>
+
+        </div>
+        <div class="hidedown">
+            <p>Welcome</p>
+            <p>IBJカフェへ</p>
+        </div>
+        <!-- About -->
+        <section class="section">
+            <h2 class="title">About</h2>
+            <div id="about" class="flexbox">
+                <div id="aboutLeft">
+                    <img id="aboutLeft01" src="./images/main01.png" alt="ドリンク" width="434" height="304">
+                    <img id="aboutLeft02" src="./images/main02.png" alt="サラダ" width="434" height="304">
+                </div>
+                <div id="aboutRight">
+                    <p>コーヒーの香りとバリスタの笑顔。お客様にIBJ CAFEを心から楽しんでいただくことが、私たちの仕事です。The aroma of coffee and the barista's smile. It's our job to make sure that our customers turly enjoy IBJ cafe!</p>
+                </div>
+            </div>
+        </section>   
+        <!-- Menu  -->
+        <section class="section">
+            <h2 class="title">Menu</h2>
+            <ul id="menu" class="flexbox">
+                <li>
+                    <img src="./images/menu01.png" alt="ブルーベリー">
+                    <p>2022.01.01</p>
+                    <p>ブルーベリーパンナコッタ</p>
+                </li>
+                <li><img src="./images/menu02.png" alt="サラダプレート">
+                    <p>2022.01.01</p>
+                    <p>サラダプレート</p>
+                </li>
+                <li><img src="./images/menu03.png" alt="レモンティー">
+                    <p>2022.01.01</p>
+                    <p>レモンティー</p>
+                </li>
+                <li><img src="./images/menu04.png" alt="レモンタルト">
+                    <p>2022.01.01</p>
+                    <p>レモンタルト</p>
+                </li>
+            </ul>
+        </section>
+        <!-- Access -->
+        <section class="section">
+            <h2 class="title">Access</h2>
+            <div id="access" class="flexbox">
+                <div id="map"><img src="./images/map.png" width="700" height="384" alt="アクセス/地図"></div>
+                <div id="accessRight">
+                    <p>〒160-0022<br>東京都新宿区新宿2-5-15新宿山興ビル2階</p>
+                    <p>TEL:03-1111-2222</p>
+                    <p>最寄り駅</p>
+                    <ul>
+                        <li>・新宿駅</li>
+                        <li>・新宿三丁目</li>
+                        <li>・新宿御苑</li>
+                    </ul>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footerInner">
+            <a href="#" class="logo">IBJ CAFE</a>
+            <p>2022&copy;IBJCAFE.inc</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      // スマホハンバーガーメニュー
+      $(function () {
+          // ハンバーガーメニューをクリックしたときの処理
+          $('#hamburger').click(function() {
+              $('body').toggleClass('open');
+          });
+      });
+</script>
+</body>
+</html>
