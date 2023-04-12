@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>IBJ CAFE</title>
+    <link rel="stylesheet" href="./css/menu_pc.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./css/menu_sp.css" media="screen and (max-width:600px)">
+    <link rel="stylesheet" href="../common/css/normalize.css">
+    <link rel="stylesheet" href="../common/css/header_footer.css">
+</head>
+<body>
+    <header>
+        <div id="headerInner">
+            <a href="../index.html" class="logo">IBJ CAFE</a>
+            <nav id="nav_pc">
+                 <ul>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="../access/access.html">Access</a></li>
+                    <li><a href="../inquiry/inquiry.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <nav id="nav_sp">
+                <ul>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="../access/access.html">Access</a></li>
+                    <li><a href="../inquiry/inquiry.html">Contact Us</a></li>
+               </ul>
+           </nav>
+           <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+           </div>
+        </div>
+    </header>
+    <main>
+        <!-- firstview -->
+        <h1 id="mainphoto"></h1>
+        <section class="section">
+            <h2 class="title_h2">Menu</h2>
+             <!-- Food -->
+            <div class="menu_cont">
+                <h3 class="title_h3">Food</h3>
+                <ul class="flexbox">
+                    <li>
+                        <img src="./images/menu_food01.png" alt="ブルーベリー">
+                        <p>日替わりプレート</p>
+                        <p>￥1,000</p>
+                    </li>
+                    <li><img src="./images/menu_food02.png" alt="サラダプレート">
+                        <p>サラダプレート</p>
+                        <p>￥1,000</p>
+                    </li>
+                    <li><img src="./images/menu_food03.png" alt="レモンティー">
+                        <p>ガパオライス</p>
+                        <p>￥1,000</p>
+                    </li>
+                </ul>
+            </div>
+             <!-- Drink -->
+             <div class="menu_cont">
+                <h3 class="title_h3">Drink</h3>
+                <ul class="flexbox">
+                    <li>
+                        <img src="./images/menu_drink01.png" alt="ブルーベリー">
+                        <p>ベリー</p>
+                        <p>￥500</p>
+                    </li>
+                    <li><img src="./images/menu_drink02.png" alt="サラダプレート">
+                        <p>レモンティー</p>
+                        <p>￥500</p>
+                    </li>
+                    <li><img src="./images/menu_drink03.png" alt="レモンティー">
+                        <p>イタリアンコーヒー</p>
+                        <p>￥500</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- Dessert -->
+            <div class="menu_cont">
+                <h3 class="title_h3">Dessert</h3>
+                <ul class="flexbox">
+                    <li>
+                        <img src="./images/menu_dessert01.png" alt="ブルーベリー">
+                        <p>ブルーベリーパンナコッタ</p>
+                        <p>￥500</p>
+                    </li>
+                    <li><img src="./images/menu_dessert02.png" alt="サラダプレート">
+                        <p>レモンタルト</p>
+                        <p>￥500</p>
+                    </li>
+                    <li><img src="./images/menu_dessert03.png" alt="レモンティー">
+                        <p>クロワッサンセット</p>
+                        <p>￥800</p>
+                    </li>
+                </ul>
+            </div>
+        </section>   
+  
+    </main>
+    <footer>
+        <div id="footerInner">
+            <a href="#" class="logo">IBJ CAFE</a>
+            <p>2022&copy;IBJCAFE.inc</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      // スマホハンバーガーメニュー
+      $(function () {
+          // ハンバーガーメニューをクリックしたときの処理
+          $('#hamburger').click(function() {
+              $('body').toggleClass('open');
+          });
+      });
+</script>
+</body>
+</html>

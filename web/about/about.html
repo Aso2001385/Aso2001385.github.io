@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>IBJ CAFE</title>
+    <link rel="stylesheet" href="./css/about_pc.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./css/about_sp.css" media="screen and (max-width:600px)">
+    <link rel="stylesheet" href="../common/css/normalize.css">
+    <link rel="stylesheet" href="../common/css/header_footer.css">
+</head>
+<body>
+    <header>
+        <div id="headerInner">
+            <a href="../index.html" class="logo">IBJ CAFE</a>
+            <nav id="nav_pc">
+                 <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="../menu/menu.html">Menu</a></li>
+                    <li><a href="../access/access.html">Access</a></li>
+                    <li><a href="../inquiry/inquiry.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <nav id="nav_sp">
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="../menu/menu.html">Menu</a></li>
+                    <li><a href="../access/access.html">Access</a></li>
+                    <li><a href="../inquiry/inquiry.html">Contact Us</a></li>
+               </ul>
+           </nav>
+           <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+           </div>
+        </div>
+    </header>
+    <main>
+        <!-- firstview -->
+        <h1 id="mainphoto"></h1>
+        <!-- About -->
+        <section class="section">
+            <h2 class="title">About</h2>
+            <div id="about_p">
+                <p>コーヒーの香りとバリスタの笑顔。</p>
+                <p>お客様にIBJ CAFEを心から楽しんでいただくことが、私たちの仕事です。</p>
+                <p>The aroma of coffee and the barista's smile.</p> 
+                <p>It's our job to make sure that our customers turly enjoy IBJ cafe!</p>
+            </div>
+            <div id="about_below" class="flexbox">
+                <div id="aboutLeft">
+                    <img id="aboutLeft01" src="../about/images/about01.png" alt="ドリンク" width="241" height="349">
+                </div>
+                <div id="aboutRight">
+                    <p>イタリアン式のカフェです。専任のフードコーディネーターは世界各国からコーヒー豆を仕入れ、唯一無二のブレンド二仕上げます。その他の食材はすべて地産地消で、ローカルな食材に合わせ、イタリアン調理法を生かし、IBJ CAFEならではの食体験をご提供します。An Italian-style cafe. Our full-time food coordinator sources coffee beans from around the world and creates a unique blend. All other ingredients are locally produced and consumed, and we use local ingredients and Italian cooking methods to provide a unique IBJ CAFE dining experience.</p>
+                </div>
+            </div>
+        </section>   
+        <!-- Staff  -->
+        <section class="section">
+            <h2 class="title">Staff</h2>
+            <div id="staff_above" class="flexbox">
+                <div id="staff_aboveRight">
+                    <img src="./images/staff01.png" width="220" height="220" alt="スタッフ写真">
+                </div>
+                <div id="staff_aboveLeft">
+                    <h3>Henry-Cheif chef</h3>
+                    <p>アメリカ出身</p>
+                    <p>「Sadier」★★、「Schoneck」★など、1999年からイタリアで2年間修業。2000年来日、「FARO」料理長、シェルトン・ラ ホテル「ビャチェーレ」副料理長歴任</p>
+                </div>
+            </div>
+            <div id="staff_below" class="flexbox">
+                <div id="staff_belowLeft">
+                    <img src="./images/staff02.png" width="220" height="220" alt="スタッフ写真">
+                </div>
+                <div id="staff_belowRight">
+                    <h3>Amy-Food coordinator</h3>
+                    <p>アメリカ出身</p>
+                    <p>大学中退後バスで米国全土を巡り放浪生活を送る。18歳来日しすぐにカリフォルニアスタイルのファーストフード開業。フードコーディネーター他、食関連の資格を取得し、活躍の場を広げる。</p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footerInner">
+            <a href="#" class="logo">IBJ CAFE</a>
+            <p>2022&copy;IBJCAFE.inc</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      // スマホハンバーガーメニュー
+      $(function () {
+          // ハンバーガーメニューをクリックしたときの処理
+          $('#hamburger').click(function() {
+              $('body').toggleClass('open');
+          });
+      });
+</script>
+</body>
+</html>

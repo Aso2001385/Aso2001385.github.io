@@ -1,0 +1,129 @@
+#main{
+    position: relative;
+}
+#mainphoto{
+    width: 100%;
+    height: 465px;
+    background-image: url(../images/mainphoto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 8% 0%;
+}
+#catch{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}
+#catch h1{
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 500px;
+    overflow-wrap:break-word;
+}
+#catch p{
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.hidedown{
+    width: 30%;
+    margin: 150px auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+.section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+}
+.title{
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+#menu li img{
+    width: 100%;
+    height: auto;
+}
+#menu li{
+    padding-left: 10px;
+}
+#menu li:nth-child(1){
+    padding-left: 0;
+}
+
+#aboutLeft{
+    position: relative;
+    width: 50%;
+    height: 500px;
+}
+#aboutLeft01{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-width: 434px;
+    height: auto;
+}
+#aboutLeft02{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    z-index: 10;
+    width: 100%;
+    max-width: 434px;
+    height: auto;
+}
+#aboutRight{
+    width: 40%;
+    margin-top: 150px;
+}
+#aboutRight p{
+    padding-left: 50px;
+}
+#map img{
+    width: 100%;
+    height: auto;
+}
+#access{
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+#accessRight{
+    padding-left: 30px;
+}
+#accessRight p{
+    margin-top: 10px;
+}
+footer{
+    margin-top: 68px;
+    background-color: rgb(70, 42, 7);
+    width: 100%;
+}
+#footerInner{
+    width: 80%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footerInner p{
+    color: white;
+    font-size: 0.8em;
+}
+
+.show {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
